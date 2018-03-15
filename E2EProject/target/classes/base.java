@@ -47,7 +47,7 @@ public class base {
 	public void getScreenshot(String result) throws IOException{
 		
 		File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		Files.copy(src, new File("C:\\Users\\nandoorath001\\E2EProject\\Screenshots\\"+result+ "screenshot.png"));
+		Files.copy(src, new File("C:\\Users\\nandoorath001\\git\\E2E\\E2EProject\\Screenshots\\"+result+ "screenshot.png"));
 		
 	}
 
