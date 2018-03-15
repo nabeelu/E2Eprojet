@@ -36,10 +36,5 @@ public class rediffLogoTest extends base {
 
 	}
 
-	@AfterTest
-	public void tearDown() {
-		driver.close();
-		
-	}
 
 }

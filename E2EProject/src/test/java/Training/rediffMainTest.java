@@ -52,10 +52,5 @@ public class rediffMainTest extends base {
 		return data;
 	}
 
-	@AfterTest
-	public void tearDown() {
-		driver.close();
-		
-	}
-
+	
 }
