@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\nandoorath001\E2EProject\testng.xml</span>
+                    <span>C:\Users\nandoorath001\git\E2E\E2EProject\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                    <span class="method-stats">4 methods, 4 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,29 +107,20 @@
                       <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Training.rediffLogoTest" hash-for-method="logoValidation">logoValidation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Training.rediffMainTest" hash-for-method="loginNavigation(rahul, 12)">loginNavigation(rahul, 12)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Training.rediffMainTest" hash-for-method="loginNavigation(calvin, 12345678)">loginNavigation(calvin, 12345678)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Training.rediffMainTest" hash-for-method="loginNavigation(rahul, 12)">loginNavigation(rahul, 12)</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Training.rediffLogoTest" hash-for-method="logoValidation">logoValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -144,17 +135,60 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">Training.rediffLogoTest</span>
+              <span class="class-name">Training.rediffMainTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="logoValidation">
-                  </a> <!-- logoValidation -->
-                  <span class="method-name">logoValidation</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Forgot Password] but found [Forgot Password?]
-	at Training.rediffLogoTest.logoValidation(rediffLogoTest.java:35)
-... Removed 35 stack frames
+                  <a name="loginNavigation(rahul, 12)">
+                  </a> <!-- loginNavigation(rahul, 12) -->
+                  <span class="method-name">loginNavigation</span>
+                  <span class="parameters">(rahul, 12)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;input id=&quot;srchword&quot; class=&quot;homesrchbox&quot; name=&quot;srchword&quot; type=&quot;text&quot;&gt; is not reachable by keyboard
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NANDOORATH00170&apos;, ip: &apos;10.7.198.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28948, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 85c9433c-1329-4480-8676-c69d7117f001
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
+	at Training.rediffMainTest.loginNavigation(rediffMainTest.java:40)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginNavigation(calvin, 12345678)">
+                  </a> <!-- loginNavigation(calvin, 12345678) -->
+                  <span class="method-name">loginNavigation</span>
+                  <span class="parameters">(calvin, 12345678)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: Element &lt;input id=&quot;srchword&quot; class=&quot;homesrchbox&quot; name=&quot;srchword&quot; type=&quot;text&quot;&gt; is not reachable by keyboard
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;NANDOORATH00170&apos;, ip: &apos;10.7.198.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28948, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 85c9433c-1329-4480-8676-c69d7117f001
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
+	at Training.rediffMainTest.loginNavigation(rediffMainTest.java:40)
+... Removed 37 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -179,34 +213,29 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Training.rediffMainTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">Training.rediffLogoTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginNavigation(calvin, 12345678)">
-                  </a> <!-- loginNavigation(calvin, 12345678) -->
-                  <span class="method-name">loginNavigation</span>
-                  <span class="parameters">(calvin, 12345678)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginNavigation(rahul, 12)">
-                  </a> <!-- loginNavigation(rahul, 12) -->
-                  <span class="method-name">loginNavigation</span>
-                  <span class="parameters">(rahul, 12)</span>
+                  <a name="logoValidation">
+                  </a> <!-- logoValidation -->
+                  <span class="method-name">logoValidation</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Forgot Password] but found [Forgot Password?]
+	at Training.rediffLogoTest.logoValidation(rediffLogoTest.java:35)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\nandoorath001\E2EProject\testng.xml</span>
+            <span class="header-content">C:\Users\nandoorath001\git\E2E\E2EProject\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -215,7 +244,6 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;Training.listener&quot;/&gt;
-    &lt;listener class-name=&quot;resources.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
@@ -265,24 +293,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginNavigation')
 data.setCell(0, 2, 'Training.rediffMainTest')
-data.setCell(0, 3, 11993);
+data.setCell(0, 3, 27876);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'elementValidation')
-data.setCell(1, 2, 'Training.rediffElementTest')
-data.setCell(1, 3, 4708);
+data.setCell(1, 1, 'loginNavigation')
+data.setCell(1, 2, 'Training.rediffMainTest')
+data.setCell(1, 3, 20128);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginNavigation')
-data.setCell(2, 2, 'Training.rediffMainTest')
-data.setCell(2, 3, 3411);
+data.setCell(2, 1, 'elementValidation')
+data.setCell(2, 2, 'Training.rediffElementTest')
+data.setCell(2, 3, 8515);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'logoValidation')
 data.setCell(3, 2, 'Training.rediffLogoTest')
-data.setCell(3, 3, 523);
+data.setCell(3, 3, 3218);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -318,14 +346,14 @@ return data;
               <div class="chronological-class-name">Training.rediffLogoTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">5005 ms</span>
+                <span class="method-start">7156 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Training.rediffMainTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9064 ms</span>
+                <span class="method-start">11076 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -334,18 +362,22 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">elementValidation</span>
-                <span class="method-start">13386 ms</span>
+                <span class="method-start">15586 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Training.rediffMainTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">loginNavigation(rahul, 12)</span>
-                <span class="method-start">18495 ms</span>
+                <span class="method-start">24423 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">loginNavigation(calvin, 12345678)</span>
-                <span class="method-start">30488 ms</span>
+                <span class="method-start">44960 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -354,14 +386,14 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">logoValidation</span>
-                <span class="method-start">33900 ms</span>
+                <span class="method-start">73119 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Training.rediffElementTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34766 ms</span>
+                <span class="method-start">76477 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -370,7 +402,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">35365 ms</span>
+                <span class="method-start">77407 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

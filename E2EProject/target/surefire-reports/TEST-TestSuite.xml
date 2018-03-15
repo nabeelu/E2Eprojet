@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="38.516" tests="6" errors="0" skipped="1" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="80.179" tests="6" errors="0" skipped="1" failures="5">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\nandoorath001\E2EProject\target\test-classes;C:\Users\nandoorath001\E2EProject\target\classes;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\nandoorath001\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nandoorath001\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nandoorath001\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nandoorath001\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\nandoorath001\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\nandoorath001\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nandoorath001\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nandoorath001\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nandoorath001\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nandoorath001\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nandoorath001\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\nandoorath001\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\nandoorath001\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\nandoorath001\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nandoorath001\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nandoorath001\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar;C:\Users\nandoorath001\.m2\repository\com\aventstack\extentreports\3.1.3\extentreports-3.1.3.jar;C:\Users\nandoorath001\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\nandoorath001\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\nandoorath001\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\nandoorath001\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\nandoorath001\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\nandoorath001\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\nandoorath001\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\nandoorath001\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\nandoorath001\git\E2E\E2EProject\target\test-classes;C:\Users\nandoorath001\git\E2E\E2EProject\target\classes;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\nandoorath001\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nandoorath001\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nandoorath001\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nandoorath001\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\nandoorath001\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\nandoorath001\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nandoorath001\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nandoorath001\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nandoorath001\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nandoorath001\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nandoorath001\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\nandoorath001\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\nandoorath001\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\nandoorath001\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nandoorath001\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nandoorath001\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\NANDOO~1\AppData\Local\Temp\surefire8709948601679060567\surefirebooter5450038347648986214.jar C:\Users\nandoorath001\AppData\Local\Temp\surefire8709948601679060567 2018-03-14T20-16-26_371-jvmRun1 surefire7359257163276383355tmp surefire_0273107501815264226tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\nandoorath001\E2EProject\target\test-classes;C:\Users\nandoorath001\E2EProject\target\classes;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\nandoorath001\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nandoorath001\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nandoorath001\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nandoorath001\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\nandoorath001\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\nandoorath001\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nandoorath001\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nandoorath001\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nandoorath001\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nandoorath001\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nandoorath001\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\nandoorath001\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\nandoorath001\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\nandoorath001\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nandoorath001\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nandoorath001\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar;C:\Users\nandoorath001\.m2\repository\com\aventstack\extentreports\3.1.3\extentreports-3.1.3.jar;C:\Users\nandoorath001\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\nandoorath001\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\nandoorath001\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\nandoorath001\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\nandoorath001\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\nandoorath001\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\nandoorath001\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\nandoorath001\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.java.command" value="C:\Users\NANDOO~1\AppData\Local\Temp\surefire1168267931894625558\surefirebooter9166794701441629114.jar C:\Users\nandoorath001\AppData\Local\Temp\surefire1168267931894625558 2018-03-15T18-49-18_088-jvmRun1 surefire876479741699207131tmp surefire_05453394995186044198tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\nandoorath001\git\E2E\E2EProject\target\test-classes;C:\Users\nandoorath001\git\E2E\E2EProject\target\classes;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\nandoorath001\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\nandoorath001\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nandoorath001\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nandoorath001\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nandoorath001\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\nandoorath001\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\nandoorath001\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nandoorath001\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nandoorath001\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nandoorath001\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nandoorath001\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nandoorath001\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nandoorath001\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\nandoorath001\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\nandoorath001\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\nandoorath001\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nandoorath001\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nandoorath001\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\logging\log4j\log4j-core\2.10.0\log4j-core-2.10.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nandoorath001\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\nandoorath001"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
-    <property name="basedir" value="C:\Users\nandoorath001\E2EProject"/>
+    <property name="basedir" value="C:\Users\nandoorath001\git\E2E\E2EProject"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\NANDOO~1\AppData\Local\Temp\surefire8709948601679060567\surefirebooter5450038347648986214.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\NANDOO~1\AppData\Local\Temp\surefire1168267931894625558\surefirebooter9166794701441629114.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\NANDOO~1\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_161"/>
-    <property name="user.dir" value="C:\Users\nandoorath001\E2EProject"/>
+    <property name="user.dir" value="C:\Users\nandoorath001\git\E2E\E2EProject"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,52 +60,222 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="elementValidation" classname="Training.rediffElementTest" time="5.098">
+  <testcase name="elementValidation" classname="Training.rediffElementTest" time="8.522">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
 	at Training.rediffElementTest.elementValidation(rediffElementTest.java:33)
 </failure>
-    <system-err><![CDATA[1521038789773	geckodriver	INFO	geckodriver 0.19.1
-1521038789791	geckodriver	INFO	Listening on 127.0.0.1:1150
-1521038790451	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\NANDOO~1\\AppData\\Local\\Temp\\rust_mozprofile.ezHHcvvgESHo"
-1521038791351	Marionette	INFO	Enabled via --marionette
-1521038793021	Marionette	INFO	Listening on port 49399
-1521038793771	Marionette	WARN	TLS certificate errors will be ignored for this session
-Mar 14, 2018 8:16:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1521119961746	geckodriver	INFO	geckodriver 0.19.1
+1521119961759	geckodriver	INFO	Listening on 127.0.0.1:46778
+1521119962405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\NANDOO~1\\AppData\\Local\\Temp\\rust_mozprofile.w6bnpsTXK7fP"
+1521119964838	Marionette	INFO	Enabled via --marionette
+1521119967219	Marionette	INFO	Listening on port 52757
+1521119967650	Marionette	WARN	TLS certificate errors will be ignored for this session
+Mar 15, 2018 6:49:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1521038794093	geckodriver	INFO	geckodriver 0.19.1
-1521038794107	geckodriver	INFO	Listening on 127.0.0.1:23018
-1521038794592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\NANDOO~1\\AppData\\Local\\Temp\\rust_mozprofile.xUlHZoqHdyfe"
-1521038795479	Marionette	INFO	Enabled via --marionette
-1521038797278	Marionette	INFO	Listening on port 49427
-1521038797850	Marionette	WARN	TLS certificate errors will be ignored for this session
-Mar 14, 2018 8:16:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1521119968019	geckodriver	INFO	geckodriver 0.19.1
+1521119968030	geckodriver	INFO	Listening on 127.0.0.1:38286
+1521119968512	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\NANDOO~1\\AppData\\Local\\Temp\\rust_mozprofile.3qkprhzJ0D99"
+1521119969302	Marionette	INFO	Enabled via --marionette
+1521119971059	Marionette	INFO	Listening on port 52786
+1521119971646	Marionette	WARN	TLS certificate errors will be ignored for this session
+Mar 15, 2018 6:49:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1521038798151	geckodriver	INFO	geckodriver 0.19.1
-1521038798161	geckodriver	INFO	Listening on 127.0.0.1:26873
-1521038798800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\NANDOO~1\\AppData\\Local\\Temp\\rust_mozprofile.sN1NjykaD6u5"
-1521038799719	Marionette	INFO	Enabled via --marionette
-1521038801537	Marionette	INFO	Listening on port 49465
-1521038802176	Marionette	WARN	TLS certificate errors will be ignored for this session
-Mar 14, 2018 8:16:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1521119971975	geckodriver	INFO	geckodriver 0.19.1
+1521119971984	geckodriver	INFO	Listening on 127.0.0.1:12539
+1521119972468	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\NANDOO~1\\AppData\\Local\\Temp\\rust_mozprofile.stnBC1Z786K6"
+1521119973427	Marionette	INFO	Enabled via --marionette
+1521119975419	Marionette	INFO	Listening on port 52829
+1521119976121	Marionette	WARN	TLS certificate errors will be ignored for this session
+Mar 15, 2018 6:49:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginNavigation" classname="Training.rediffMainTest" time="11.993"/>
-  <testcase name="loginNavigation" classname="Training.rediffMainTest" time="3.409"/>
-  <testcase name="logoValidation" classname="Training.rediffLogoTest" time="0.865">
+  <testcase name="loginNavigation" classname="Training.rediffMainTest" time="20.068">
+    <failure message="Element &lt;input id=&quot;srchword&quot; class=&quot;homesrchbox&quot; name=&quot;srchword&quot; type=&quot;text&quot;&gt; is not reachable by keyboard&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;NANDOORATH00170&apos;, ip: &apos;10.7.198.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28948, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 85c9433c-1329-4480-8676-c69d7117f001" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="srchword" class="homesrchbox" name="srchword" type="text"> is not reachable by keyboard
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NANDOORATH00170', ip: '10.7.198.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28948, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 85c9433c-1329-4480-8676-c69d7117f001
+	at Training.rediffMainTest.loginNavigation(rediffMainTest.java:40)
+]]></failure>
+    <system-err><![CDATA[java.io.FileNotFoundException: C:\Users\nandoorath001\E2EProject\Screenshots\elementValidationscreenshot.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:216)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:204)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:267)
+	at com.google.common.io.Files.copy(Files.java:327)
+	at resources.base.getScreenshot(base.java:50)
+	at Training.listener.onTestFailure(listener.java:32)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]></system-err>
+  </testcase>
+  <testcase name="loginNavigation" classname="Training.rediffMainTest" time="27.823">
+    <failure message="Element &lt;input id=&quot;srchword&quot; class=&quot;homesrchbox&quot; name=&quot;srchword&quot; type=&quot;text&quot;&gt; is not reachable by keyboard&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;NANDOORATH00170&apos;, ip: &apos;10.7.198.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28948, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 85c9433c-1329-4480-8676-c69d7117f001" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="srchword" class="homesrchbox" name="srchword" type="text"> is not reachable by keyboard
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NANDOORATH00170', ip: '10.7.198.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28948, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 85c9433c-1329-4480-8676-c69d7117f001
+	at Training.rediffMainTest.loginNavigation(rediffMainTest.java:40)
+]]></failure>
+    <system-err><![CDATA[java.io.FileNotFoundException: C:\Users\nandoorath001\E2EProject\Screenshots\loginNavigationscreenshot.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:216)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:204)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:267)
+	at com.google.common.io.Files.copy(Files.java:327)
+	at resources.base.getScreenshot(base.java:50)
+	at Training.listener.onTestFailure(listener.java:32)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+Unable to read VR Path Registry from C:\Users\nandoorath001\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-2932970604686705&output=html&h=250&slotname=6695530827&adk=2912595559&adf=3742742943&w=300&lmt=1521120010&loeid=38893312&format=300x250&url=http%3A%2F%2Fwww.rediff.com%2F&ea=0&flash=0&avail_w=300&wgl=1&dt=1521120010316&bpp=6&bdt=1096&fdt=85&idt=130&shv=r20180312&cbv=r20170110&saldr=aa&prev_fmts=728x90&correlator=1167604765814&frm=20&ga_vid=938533712.1521120010&ga_sid=1521120010&ga_hid=322375249&ga_fc=0&pv=1&icsg=2&nhd=1&dssz=2&mdo=0&mso=0&u_tz=330&u_his=4&u_java=0&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_nplug=0&u_nmime=0&adx=777&ady=273&biw=1263&bih=646&abxe=1&scr_x=0&scr_y=0&eid=4089042%2C21061122%2C38893302%2C62710016%2C62710018%2C191880502%2C20040065&oid=3&rx=0&eae=2&fc=528&brdim=%2C%2C-7%2C-7%2C1280%2C0%2C1295%2C735%2C1280%2C646&vis=1&rsz=o%7Co%7CoeE%7C&abl=NS&ppjl=f&pfx=0&fu=16&bc=1&ifi=2&dtd=161, line 22: SyntaxError: unexpected token: numeric literal
+]]></system-err>
+  </testcase>
+  <testcase name="logoValidation" classname="Training.rediffLogoTest" time="3.174">
     <failure message="expected [Forgot Password] but found [Forgot Password?]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Forgot Password] but found [Forgot Password?]
 	at Training.rediffLogoTest.logoValidation(rediffLogoTest.java:35)
 </failure>
+    <system-err><![CDATA[java.io.FileNotFoundException: C:\Users\nandoorath001\E2EProject\Screenshots\loginNavigationscreenshot.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:216)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:204)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:267)
+	at com.google.common.io.Files.copy(Files.java:327)
+	at resources.base.getScreenshot(base.java:50)
+	at Training.listener.onTestFailure(listener.java:32)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]></system-err>
   </testcase>
-  <testcase name="tearDown" classname="Training.rediffElementTest" time="1.48">
-    <failure message="Tried to run command without establishing a connection&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;NANDOORATH00170&apos;, ip: &apos;10.17.5.87&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19748, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 82176c91-956a-4d6e-ac95-c816b4bd9ac8" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+  <testcase name="tearDown" classname="Training.rediffElementTest" time="4.247">
+    <failure message="Tried to run command without establishing a connection&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;NANDOORATH00170&apos;, ip: &apos;10.7.198.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28948, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 85c9433c-1329-4480-8676-c69d7117f001" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
 Tried to run command without establishing a connection
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'NANDOORATH00170', ip: '10.17.5.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+System info: host: 'NANDOORATH00170', ip: '10.7.198.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19748, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 82176c91-956a-4d6e-ac95-c816b4bd9ac8
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 28948, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 85c9433c-1329-4480-8676-c69d7117f001
 </failure>
+    <system-err><![CDATA[java.io.FileNotFoundException: C:\Users\nandoorath001\E2EProject\Screenshots\logoValidationscreenshot.png (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:216)
+	at com.google.common.io.Files$FileByteSink.openStream(Files.java:204)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:267)
+	at com.google.common.io.Files.copy(Files.java:327)
+	at resources.base.getScreenshot(base.java:50)
+	at Training.listener.onTestFailure(listener.java:32)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1388)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:633)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+]]></system-err>
   </testcase>
   <testcase name="tearDown" classname="Training.rediffElementTest" time="0">
     <skipped/>

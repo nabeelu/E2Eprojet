@@ -3,17 +3,16 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <listeners>
     <listener class-name="Training.listener"/>
-    <listener class-name="resources.ExtentReporterNG"/>
   </listeners>
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="Training.rediffLogoTest">
+      <class name="Training.rediffMainTest">
         <methods>
-          <include name="logoValidation"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginNavigation" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- Training.rediffLogoTest -->
+      </class> <!-- Training.rediffMainTest -->
       <class name="Training.rediffElementTest">
         <methods>
           <include name="setUp"/>
@@ -21,6 +20,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- Training.rediffElementTest -->
+      <class name="Training.rediffLogoTest">
+        <methods>
+          <include name="logoValidation"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Training.rediffLogoTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
