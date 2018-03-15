@@ -30,7 +30,7 @@ public class rediffElementTest extends base {
 
 		landingPage lp = new landingPage(driver);
 		log.info("checking whether go a button is present");
-		Assert.assertFalse(lp.Go().isDisplayed());
+		Assert.assertTrue(lp.Go().isDisplayed());
 			
 		
 
