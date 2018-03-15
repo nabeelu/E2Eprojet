@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 1, Time elapsed: 38.516 s <<< FAILURE! - in TestSuite
+elementValidation(Training.rediffElementTest)  Time elapsed: 5.098 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at Training.rediffElementTest.elementValidation(rediffElementTest.java:33)
+
+logoValidation(Training.rediffLogoTest)  Time elapsed: 0.865 s  <<< FAILURE!
+java.lang.AssertionError: expected [Forgot Password] but found [Forgot Password?]
+	at Training.rediffLogoTest.logoValidation(rediffLogoTest.java:35)
+
+tearDown(Training.rediffElementTest)  Time elapsed: 1.48 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Tried to run command without establishing a connection
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'NANDOORATH00170', ip: '10.17.5.87', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19748, moz:profile: C:\Users\nandoorath001\AppD..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 82176c91-956a-4d6e-ac95-c816b4bd9ac8
+

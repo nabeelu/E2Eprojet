@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Training.listener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Training.rediffLogoTest">
+        <methods>
+          <include name="logoValidation"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Training.rediffLogoTest -->
+      <class name="Training.rediffElementTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="elementValidation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Training.rediffElementTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,7 @@
+20:14:22.773 [main] INFO  Training.rediffMainTest - Home button clicked
+20:14:24.358 [main] INFO  Training.rediffLogoTest - checking whether logo button is present
+20:16:46.925 [main] INFO  Training.rediffElementTest - checking whether go button is present
+20:16:47.891 [main] DEBUG Training.rediffMainTest - clicking on Home button
+20:16:51.851 [main] INFO  Training.rediffMainTest - Home button clicked
+20:16:59.947 [main] DEBUG Training.rediffMainTest - clicking on Home button
+20:17:01.404 [main] INFO  Training.rediffMainTest - Home button clicked
