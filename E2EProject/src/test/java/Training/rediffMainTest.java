@@ -37,8 +37,8 @@ public class rediffMainTest extends base {
 		log.info("Home button clicked");
 
 		homePage hp = new homePage(driver);
-		hp.Search().sendKeys("selenium");
-		hp.Submit().click();
+		//hp.Search().sendKeys("selenium");
+		//hp.Submit().click();
 	}
 
 	@DataProvider
