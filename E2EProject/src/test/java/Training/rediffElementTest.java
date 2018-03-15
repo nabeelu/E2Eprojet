@@ -29,7 +29,7 @@ public class rediffElementTest extends base {
 		driver.get(prop.getProperty("url"));
 
 		landingPage lp = new landingPage(driver);
-		log.info("checking whether go button is present");
+		log.info("checking whether go a button is present");
 		Assert.assertFalse(lp.Go().isDisplayed());
 			
 		
