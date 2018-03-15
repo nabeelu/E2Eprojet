@@ -36,10 +36,5 @@ public class rediffElementTest extends base {
 
 	}
 
-	@AfterTest
-	public void tearDown() {
-		driver.close();
-		
-	}
 
 }
