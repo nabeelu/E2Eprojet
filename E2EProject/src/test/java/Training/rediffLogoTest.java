@@ -32,7 +32,7 @@ public class rediffLogoTest extends base {
 
 		landingPage lp = new landingPage(driver);
 		log.info("checking whether logo button is present");
-		 Assert.assertEquals(lp.Logo().getText(), "Forgot Password");
+		 Assert.assertEquals(lp.Logo().getText(), "Forgot Password?");
 
 	}
 
